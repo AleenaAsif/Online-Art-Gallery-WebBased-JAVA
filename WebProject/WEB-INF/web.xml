@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+        <servlet>
+		<servlet-name>searchArt</servlet-name>
+		<servlet-class>searchArt</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>searchArt</servlet-name>
+		<url-pattern>/searchArt</url-pattern>
+	</servlet-mapping>
+
+	
+    	<servlet>
+		<servlet-name>signupB</servlet-name>
+		<servlet-class>signupB</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>signupB</servlet-name>
+		<url-pattern>/signupB</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loginB</servlet-name>
+		<servlet-class>loginB</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginB</servlet-name>
+		<url-pattern>/loginB</url-pattern>
+	</servlet-mapping>
+
+    	<servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>add</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>delete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+
+   	<servlet>
+		<servlet-name>update2</servlet-name>
+		<servlet-class>update2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>update2</servlet-name>
+		<url-pattern>/update2</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+</web-app>
